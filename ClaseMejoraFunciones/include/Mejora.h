@@ -9,14 +9,19 @@ class Mejora
 {
 private:
         int aspecto_f;
-        string nombre;
+        int opcion_abdominales;
+        int opcion_piernas;
+        int opcion_brazos;
+        int opcion_espalda;
+//        string nombre;
 public:
         char volver;
         void Regresa_Abdominales();
         void Regresa_Piernas();
         void Regresa_Brazos();
         void Regresa_Espalda();
-        Mejora();
+         Mejora();
+        virtual  ~Mejora();
         void Mostrar_mensaje();
         void Fisica();
         void Mostrar_opciones();

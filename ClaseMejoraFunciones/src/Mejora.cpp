@@ -16,13 +16,14 @@ void Mejora::Mostrar_mensaje()
 */
 Mejora::Mejora()
 {
-    cout<<"BIENVENIDO, elige el aspecto fisico que quieres mejorar"<<endl;
+
 }
+
+Mejora::~Mejora(){}
 
 void Mejora::Fisica()
 {
-    int aspecto_f;
-
+    cout<<"BIENVENIDO, elige el aspecto fisico que quieres mejorar"<<endl;
     do
     {
     cout<<"Elige una opcion: \n";
@@ -55,7 +56,6 @@ void Mejora::Fisica()
 void Mejora::Abdominales()
 {
 
-    int opcion_abdominales;
         cout<<"Abdominales: \n\n ";
         cout<<"\t Conseguir un abdomen fuerte y tonificado es lo que mas \n\n";
         cout<<"\t nos cuesta y a la gran mayoria de nosotros se nos escapan \n\n";
@@ -205,7 +205,7 @@ void Mejora::Abdominales7()
 
 void Mejora::Piernas()
 {
-    int opcion_piernas;
+
         cout<<"\t Las piernas son parte esencial de cualquier tipo de actividad física. \n\n";
         cout<<"\t Mantener unas piernas en forma esta al alcance de todos. \n\n";
         cout<<"\t Todo es cuestion de realizar unos sencillos ejercicios centrados en \n\n";
